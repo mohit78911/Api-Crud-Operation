@@ -20,7 +20,7 @@ function Navbar() {
                   style={({ isActive }) => {
                     return { color: isActive ? "skyblue" : "" };
                   }}
-                  to="/Crud"
+                  to="/"
                 >
                   Home
                 </NavLink>

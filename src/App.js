@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/story" element={<Story />} />
-          <Route path="/crud" element={<Crud />} />
+          <Route path="/" element={<Crud />} />
           <Route path="/Text" element={<NewText />} />
         </Routes>
       </BrowserRouter>
