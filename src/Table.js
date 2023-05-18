@@ -3,9 +3,9 @@ import ".//App.css";
 
 function Table(props) {
   return (
-    <div className="container">
+    <div className="container" style={{width:"100%"}}>
       <br />
-      <table className="table table-striped table-light">
+      <table className="table table-striped table-light" style={{width:"100%"}}>
         <tbody>
           <tr>
             <th>S.No</th>

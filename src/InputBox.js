@@ -6,7 +6,7 @@ import logo from './api.jpg'
 function InputBox(props) {
     return (
         <div >
-            <div className='container'>
+            <div className='container' style={{width:"100%"}}>
         <div className='row container'>
             <div className='col'>
             <h1 className="ffamily">Input box</h1>
