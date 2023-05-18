@@ -41,7 +41,7 @@ function Story() {
             data (the Google Maps API is a popular example).
           </p>
         </div>
-        <img src={logo2} alt="second image" width={750} />
+        <img src={logo2} className="round" alt="second image" width={750} />
         <div>
           <h3></h3>
           <p>

@@ -6,16 +6,10 @@ import ".//App.css";
 
 function Navbar() {
   return (
-    <div className="blackbck">
-      <div className="row">
-        <div className="col leftpro autoMargin">
-          <Title title="React Crud Operation" />
-        </div>
-        <div className="col ">
-          <div>
-            <ul className=" navbar">
-              <li >
-                <NavLink
+    <>
+      <div className="blackcolor">
+        <ul>
+          <li>  <NavLink
                   className="nav-bar-link"
                   style={({ isActive }) => {
                     return { color: isActive ? "skyblue" : "" };
@@ -23,10 +17,8 @@ function Navbar() {
                   to="/"
                 >
                   Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
+                </NavLink></li>
+          <li> <NavLink
                   className="nav-bar-link"
                   style={({ isActive }) => {
                     return { color: isActive ? "skyblue" : "" };
@@ -34,11 +26,8 @@ function Navbar() {
                   to="/Story"
                 >
                   About
-                </NavLink>
-              </li>
-
-              <li>
-                <NavLink
+                </NavLink></li>
+          <li> <NavLink
                   className="nav-bar-link"
                   style={({ isActive }) => {
                     return { color: isActive ? "skyblue" : "" };
@@ -46,13 +35,10 @@ function Navbar() {
                   to="/text"
                 >
                   Text Field
-                </NavLink>
-              </li>
-            </ul>
-          </div>
-        </div>
+                </NavLink></li>
+        </ul>
       </div>
-    </div>
+    </>
   );
 }
 export default Navbar;
